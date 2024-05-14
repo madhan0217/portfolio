@@ -103,6 +103,21 @@ header.shadow .logo{
     background: var(--text-color);
     letter-spacing: 0.1rem;
 }
+button{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--bg-color);
+    background: var(--main-color);
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+button:hover{
+    color: var(--bg-color);
+    background: var(--text-color);
+    letter-spacing: 0.1rem;
+}
 .home-content{
     width: 100%;
     align-items: center;
@@ -405,4 +420,37 @@ header.shadow .logo{
     font-weight: 500;
     color: var(--main-color);
     float: right;
+}
+.contact form input {
+    height: 60px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    outline: none;
+    border: 2px solid var(--text-color);
+    border-radius: .5rem;
+}
+.contact__section form input:focus {
+    border-color: var(--main-color);
+}
+.contact form textarea {
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    height: 150px;
+    outline: none;
+    resize: vertical;
+    border: 2px solid var(--text-color);
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+}
+.contact__section form textarea:focus {
+    border-color: var(--main-color);
+}
+.contact form textarea:hover{
+    border: 2px solid var(--main-color);
+}
+.contact form input:hover{
+    border: 2px solid var(--main-color);
 }

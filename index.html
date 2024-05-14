@@ -279,25 +279,14 @@
           </div>
 
           <!-- form -->
-          <div class="col-sm-6 mt-5">
-            <form action="#">
-                <div class="row g-3">
-                  <div class="form-group col-md-6">
-                    <input type="text" class="form-control" placeholder="firstname">
-                  </div>
-                  <div class="form-group form-contact-1 col-md-6">
-                    <input type="text" class="form-control" placeholder="lastname">
-                  </div>
-                  <div class="form-group form-contact-2">
-                    <input type="email" class="form-control" placeholder="email id ...">
-                  </div>
-                  <div class="form-group form-contact-3 col-md-12">
-                    <textarea cols="30" rows="4" class="form-control" placeholder="Message"></textarea>
-                  </div>
-                  <div class="form-group form-contact-4 text-center col-md-12">
-                    <a href="#" class="btn btn-block">Send Message <span> <i class='bx bxs-message-detail'></i></span></a>
-                  </div>
-                </div>
+          <div class="col contact__form mt-5">
+            <form action="https://formcarry.com/s/QaxErenQoqG" method="post" class="formcarry-form">
+              <input class="col-sm-6 form-contact-1" type="text" name="fullName" placeholder="Your Name" required />
+              <input class="col-sm-6 form-contact-2" type="email" name="email" placeholder="Your Email" required />
+              <textarea class="col-sm-6 form-contact-3" name="message" placeholder="Your Message" required></textarea>
+              <button class="button form-contact-4" type="submit">
+                Send Message<i class='bx bxs-message-detail'></i>
+              </button>
             </form>
           </div>
 
